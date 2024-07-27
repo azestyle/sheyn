@@ -1,0 +1,29 @@
+.container{
+    .rows{
+        display: flex;
+        img{
+            
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 968px) {
+    .rows {
+        display: flex;
+        flex-wrap: wrap;
+       .col-sm-6{
+        width: 50% ;
+       }
+    }
+}
+
+@media (max-width: 760px) {
+    .rows {
+        display: flex;
+        flex-wrap: wrap;
+       .col-sm-12{
+        width: 100% ;
+       }
+    }
+}
